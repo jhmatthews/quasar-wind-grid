@@ -4,12 +4,20 @@ Repository of grid results for the 2015 Quasar wind models
 
 page is live at http://jhmatthews.github.io/quasar-wind-grid/
 
+filenames are as follows:
+run60_thmin70_rmin30_a1_rv1e19_f0p01.spec
+
+where the variables are as defined in the paper, i.e.
+
+f- volume filling factor, 0.1 (0p1) or 0.01 (0p01)
+thmin - minimum wind angle, 70 or 55.
+rmin - minimum launch radius, 10,30,or 50
+a - alpha, acceleration exponent, 0.5,0.6, or 1
+rv - acceleration length, 1e18 or 1e19
 
 ### Directory Structure
 
 * synthetic_spectra: folder containing the output spectra from the radiative transfer simulations
-* scripts: useful python scripts for reading in and plotting spectra
-* plots: Ready made plots and visualisations
 
 ### Processing Output Files
 
