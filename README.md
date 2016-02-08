@@ -9,11 +9,11 @@ run42_thmin70_rmin50_a0p5_rv1e19_f0p01.spec
 
 where the variables are as defined in the paper, i.e.
 
-f- volume filling factor, 0.1 (0p1) or 0.01 (0p01)
-thmin - minimum wind angle, 70 or 55.
-rmin - minimum launch radius, 10,30,or 50
-a - alpha, acceleration exponent, 0.5,0.6, or 1
-rv - acceleration length, 1e18 or 1e19
+* f- volume filling factor, 0.1 (0p1) or 0.01 (0p01)
+* thmin - minimum wind angle, 70 or 55.
+* rmin - minimum launch radius, 10,30,or 50
+* a - alpha, acceleration exponent, 0.5,0.6, or 1
+* rv - acceleration length, 1e18 or 1e19
 
 ### Directory Structure
 
