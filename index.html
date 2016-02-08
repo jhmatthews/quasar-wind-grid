@@ -58,7 +58,7 @@ run60_thmin70_rmin30_a1_rv1e19_f0p01.spec</p>
 
 <p>The output spectrum files follow the astropy conventions with the format</p>
 
-<p>Freq.        Lambda  Created  Emitted   CenSrc  Disk     Wind     HitSurf Scattered A20P0.50 
+<p>Freq.        Lambda  Created  Emitted   CenSrc  Disk     Wind     HitSurf Scattered A20
 4.002830e+14 7489.514     0.177    0.149   0.0217    0.127  0.00031    0.029        0    0.307   </p>
 
 <p>And thus can be read into a table with the commands</p>
@@ -69,7 +69,7 @@ data <span class="pl-k">=</span> <span class="pl-c1">ascii</span>.read(filename)
 <p>You could then make an Flambda flux density plot with wavelength at 20 degrees by doing</p>
 
 <div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> pylab <span class="pl-k">as</span> plt
-plt.plot(data[<span class="pl-s"><span class="pl-pds">"</span>Lambda<span class="pl-pds">"</span></span>], data[<span class="pl-s"><span class="pl-pds">"</span>A20P0.50<span class="pl-pds">"</span></span>])</pre></div>
+plt.plot(data[<span class="pl-s"><span class="pl-pds">"</span>Lambda<span class="pl-pds">"</span></span>], data[<span class="pl-s"><span class="pl-pds">"</span>A20<span class="pl-pds">"</span></span>])</pre></div>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/jhmatthews">jhmatthews</a></p>
