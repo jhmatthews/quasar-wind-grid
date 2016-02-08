@@ -5,11 +5,11 @@ Repository of grid results for the 2015 Quasar wind models
 page is live at http://jhmatthews.github.io/quasar-wind-grid/
 
 Spectra are split into two grids, depending on clumping factor, and in folders
-synthetic_spectra_f0p1
-synthetic_spectra_f0p01
+synthetic_spectra_f0p1/
+synthetic_spectra_f0p01/
 
-filenames are as follows:
-run60_thmin70_rmin30_a1_rv1e19_f0p01.spec
+filenames are as follows (this is the fiducial model):
+run42_thmin70_rmin50_a0p5_rv1e19_f0p01.spec
 
 where the variables are as defined in the paper, i.e.
 
