@@ -4,10 +4,6 @@ Repository of grid results for the 2015 Quasar wind models
 
 page is live at http://jhmatthews.github.io/quasar-wind-grid/
 
-Spectra are split into two grids, depending on clumping factor, and in folders
-synthetic_spectra_f0p1/
-synthetic_spectra_f0p01/
-
 filenames are as follows (this is the fiducial model):
 run42_thmin70_rmin50_a0p5_rv1e19_f0p01.spec
 
@@ -21,7 +17,9 @@ rv - acceleration length, 1e18 or 1e19
 
 ### Directory Structure
 
-* synthetic_spectra: folder containing the output spectra from the radiative transfer simulations
+Spectra are split into two grids, depending on clumping factor, and in folders
+* synthetic_spectra_f0p1/
+* synthetic_spectra_f0p01/
 
 ### Processing Output Files
 
@@ -44,4 +42,4 @@ import pylab as plt
 plt.plot(data["Lambda"], data["A20"])
 ```
 
-
+Any questions, email me at jm8g08 [at] soton.ac.uk. 
